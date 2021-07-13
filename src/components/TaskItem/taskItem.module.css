@@ -1,0 +1,90 @@
+.item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 0;
+   border-top: 1px solid #E4E4E4;
+   border-bottom: 1px solid #E4E4E4;
+   max-width: 370px;
+}
+
+.menu {
+   position: relative;
+}
+
+.number {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 100%;
+   border: 1px solid #C4C4C4;
+   padding:0;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 17px;
+   margin-right: 10px;
+
+}
+
+.text {
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 17px;
+}
+
+.button {
+   background-color: transparent;
+   padding: 10px 0;
+   cursor: pointer;
+}
+
+.dropdown {
+   background-color: #fff;
+   margin: 0;
+   list-style-type: none;
+   position: absolute;
+   content: '';
+   display: block;
+   z-index: 100;
+   top: 116%;
+   left: 50%;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   margin-left: -76px;
+   border: 1px solid #C4C4C4;
+}
+
+.dropdown>svg {
+   margin-right: 8px;
+}
+
+.dropdown::before,
+.dropdown::after {
+   content: '';
+   position: absolute;
+   bottom: 100%;
+   /* At the top of the tooltip */
+   left: 42%;
+   border: 10px solid transparent;
+   border-bottom: 10px solid #C4C4C4;
+}
+
+.dropdown::after {
+   border-bottom: 10px solid white;
+   bottom: 98.8%;
+   /* At the top of the tooltip */
+   left: 42%;
+}
+
+.dropdown li {
+   padding: 9px 15px;
+   display: flex;
+   align-items: center;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 17px;
+   color: #999999;
+}
+

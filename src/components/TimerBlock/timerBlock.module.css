@@ -1,0 +1,66 @@
+.bottom {
+   background-color: #F4F4F4;
+   max-width: 100%;
+   padding: 70px 97px 107px;
+   text-align: center;
+
+}
+
+.header {
+   background-color: #C4C4C4;
+   padding: 19px 40px;
+   max-width: 100%;
+   display: flex;
+   justify-content: space-between;
+   font-weight: 700;
+   font-size: 16px;
+   color: #FFFFFF;
+   min-height: 57px;
+}
+
+.timerBlock {
+   min-width: 50%;
+}
+
+.timer {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   
+}
+.timer span{
+   font-weight: 200;
+   font-size: 150px;
+   margin-right: 21px;
+}
+.buttonsGroup> button{
+   padding: 15px 50px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 17px;
+}
+.buttonsGroup> button:first-child{
+   background-color: #A8B64F;
+   color:#fff;
+   border: none;
+   margin-right: 25px;
+}
+
+.buttonsGroup> button:first-child:hover{
+   background-color: #899441;
+}
+
+.buttonsGroup> button:last-child{
+   background-color: transparent;
+   color:#C4C4C4;
+   border: 2px solid #C4C4C4
+}
+.task{
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+margin-bottom: 32px;
+}
+.task span{
+   color: #999999;
+}
