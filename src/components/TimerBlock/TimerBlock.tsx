@@ -9,7 +9,7 @@ function TimerBlock() {
 
    return (
       <div className={styles.timerBlock}>
-         <div className={styles.header}><span>{tasks.length > 0 ? tasks[0].text : ''}</span><span>Помидор 1</span></div>
+         <div className={styles.header}><span>{tasks?.length > 0 ? tasks[0]?.text : ''}</span><span>Помидор 1</span></div>
          <div className={styles.bottom}>
             <div className={styles.timer}>
                <span>25 : 00</span>

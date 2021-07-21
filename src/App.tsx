@@ -6,6 +6,7 @@ import { rootReducer } from './redux/reducers/rootReducer';
 import { createStore, compose } from 'redux';
 import { Provider } from 'react-redux';
 
+
 export const composeEnhancers =
   (window && (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
 const store = createStore(rootReducer, composeEnhancers());
@@ -15,10 +16,10 @@ function App() {
     <Provider store={store}>
     <div className="App">
       <Header/>
-      <Main>
+          <Main>
         <AddBlock/>
         <TimerBlock/>
-      </Main>
+        </Main>
     </div>
     </Provider>
   );
